@@ -4,7 +4,7 @@ function preload() { //loading the shader
     shader = loadShader('vertex.glsl', 'fragment.glsl');//storing the shader object
 }
 function setup() {
-    createCanvas(1280, 720, WEBGL);
+    createCanvas(1280, 720, WEBGL2);
 
     //telling p5 to use the loaded shader
     shader(shader);
